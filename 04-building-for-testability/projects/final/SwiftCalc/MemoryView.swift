@@ -58,3 +58,14 @@ struct MemoryView: View {
     }.padding(.bottom).padding(.horizontal, 5)
   }
 }
+
+
+//struct MemoryView_Previews: PreviewProvider {
+//    @State private var memory = 5.0
+//
+//    static var previews: some View {
+//        GeometryReader { geometry in
+//            MemoryView(memory: $memory, geometry: geometry)
+//        }
+//    }
+//}
